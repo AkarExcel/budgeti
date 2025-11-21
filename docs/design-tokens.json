@@ -1,0 +1,156 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "color": {
+    "primary": {
+      "50": { "$value": "#E6F9F4", "$type": "color" },
+      "400": { "$value": "#39D9AD", "$type": "color" },
+      "500": { "$value": "#1DCF9F", "$type": "color" },
+      "600": { "$value": "#17B88C", "$type": "color" }
+    },
+    "gamification": {
+      "achievement-gold": { "$value": "#F59E0B", "$type": "color" },
+      "streak-fire": { "$value": "#EF4444", "$type": "color" },
+      "info-cyan": { "$value": "#2BE2FA", "$type": "color" }
+    },
+    "neutral": {
+      "50": { "$value": "#FAFAFA", "$type": "color" },
+      "100": { "$value": "#F5F5F5", "$type": "color" },
+      "200": { "$value": "#E5E5E5", "$type": "color" },
+      "400": { "$value": "#A3A3A3", "$type": "color" },
+      "700": { "$value": "#404040", "$type": "color" },
+      "900": { "$value": "#171717", "$type": "color" }
+    },
+    "semantic": {
+      "success": { "$value": "#22C55E", "$type": "color" },
+      "warning": { "$value": "#F59E0B", "$type": "color" },
+      "error": { "$value": "#EF4444", "$type": "color" }
+    },
+    "background": {
+      "page": { "$value": "{color.neutral.50}", "$type": "color" },
+      "surface": { "$value": "#FFFFFF", "$type": "color" },
+      "elevated": { "$value": "#FFFFFF", "$type": "color" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": {
+        "$value": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "$type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "display-lg": { "$value": "48px", "$type": "dimension" },
+      "display-md": { "$value": "32px", "$type": "dimension" },
+      "heading-xl": { "$value": "24px", "$type": "dimension" },
+      "heading-lg": { "$value": "20px", "$type": "dimension" },
+      "heading-md": { "$value": "18px", "$type": "dimension" },
+      "body-lg": { "$value": "18px", "$type": "dimension" },
+      "body-base": { "$value": "16px", "$type": "dimension" },
+      "body-sm": { "$value": "14px", "$type": "dimension" },
+      "label-md": { "$value": "14px", "$type": "dimension" },
+      "label-sm": { "$value": "12px", "$type": "dimension" },
+      "caption": { "$value": "12px", "$type": "dimension" }
+    },
+    "fontWeight": {
+      "regular": { "$value": "400", "$type": "number" },
+      "medium": { "$value": "500", "$type": "number" },
+      "semibold": { "$value": "600", "$type": "number" },
+      "bold": { "$value": "700", "$type": "number" }
+    },
+    "lineHeight": {
+      "tight": { "$value": "1.2", "$type": "number" },
+      "snug": { "$value": "1.3", "$type": "number" },
+      "normal": { "$value": "1.4", "$type": "number" },
+      "relaxed": { "$value": "1.6", "$type": "number" }
+    }
+  },
+  "spacing": {
+    "4": { "$value": "4px", "$type": "dimension" },
+    "8": { "$value": "8px", "$type": "dimension" },
+    "12": { "$value": "12px", "$type": "dimension" },
+    "16": { "$value": "16px", "$type": "dimension" },
+    "24": { "$value": "24px", "$type": "dimension" },
+    "32": { "$value": "32px", "$type": "dimension" },
+    "48": { "$value": "48px", "$type": "dimension" },
+    "56": { "$value": "56px", "$type": "dimension" },
+    "64": { "$value": "64px", "$type": "dimension" },
+    "96": { "$value": "96px", "$type": "dimension" }
+  },
+  "borderRadius": {
+    "sm": { "$value": "8px", "$type": "dimension" },
+    "md": { "$value": "12px", "$type": "dimension" },
+    "lg": { "$value": "16px", "$type": "dimension" },
+    "xl": { "$value": "24px", "$type": "dimension" },
+    "full": { "$value": "9999px", "$type": "dimension" }
+  },
+  "boxShadow": {
+    "sm": {
+      "$value": "0 1px 2px rgba(0, 0, 0, 0.05)",
+      "$type": "shadow"
+    },
+    "card": {
+      "$value": "0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)",
+      "$type": "shadow"
+    },
+    "card-hover": {
+      "$value": "0 4px 16px rgba(29, 207, 159, 0.12), 0 2px 4px rgba(0, 0, 0, 0.06)",
+      "$type": "shadow"
+    },
+    "fab": {
+      "$value": "0 8px 24px rgba(29, 207, 159, 0.2), 0 4px 8px rgba(0, 0, 0, 0.08)",
+      "$type": "shadow"
+    }
+  },
+  "animation": {
+    "duration": {
+      "instant": { "$value": "100ms", "$type": "duration" },
+      "fast": { "$value": "150ms", "$type": "duration" },
+      "base": { "$value": "200ms", "$type": "duration" },
+      "slow": { "$value": "300ms", "$type": "duration" },
+      "celebration": { "$value": "400ms", "$type": "duration" }
+    },
+    "easing": {
+      "ease-out": { "$value": "cubic-bezier(0, 0, 0.2, 1)", "$type": "cubicBezier" },
+      "ease-in-out": { "$value": "cubic-bezier(0.4, 0, 0.2, 1)", "$type": "cubicBezier" },
+      "bouncy": { "$value": "cubic-bezier(0.34, 1.56, 0.64, 1)", "$type": "cubicBezier" }
+    }
+  },
+  "component": {
+    "button": {
+      "height": { "$value": "{spacing.48}", "$type": "dimension" },
+      "padding-x": { "$value": "{spacing.16}", "$type": "dimension" },
+      "radius": { "$value": "{borderRadius.md}", "$type": "dimension" }
+    },
+    "input": {
+      "height": { "$value": "{spacing.48}", "$type": "dimension" },
+      "padding-x": { "$value": "{spacing.16}", "$type": "dimension" },
+      "padding-y": { "$value": "{spacing.12}", "$type": "dimension" },
+      "radius": { "$value": "{borderRadius.md}", "$type": "dimension" }
+    },
+    "card": {
+      "padding": { "$value": "{spacing.32}", "$type": "dimension" },
+      "gap": { "$value": "{spacing.24}", "$type": "dimension" },
+      "radius": { "$value": "{borderRadius.md}", "$type": "dimension" },
+      "shadow": { "$value": "{boxShadow.card}", "$type": "shadow" }
+    },
+    "navigation": {
+      "height": { "$value": "{spacing.56}", "$type": "dimension" },
+      "icon-size": { "$value": "24px", "$type": "dimension" },
+      "gap": { "$value": "{spacing.8}", "$type": "dimension" }
+    },
+    "fab": {
+      "size": { "$value": "{spacing.56}", "$type": "dimension" },
+      "icon-size": { "$value": "28px", "$type": "dimension" },
+      "shadow": { "$value": "{boxShadow.fab}", "$type": "shadow" }
+    },
+    "badge": {
+      "size": { "$value": "{spacing.64}", "$type": "dimension" },
+      "radius": { "$value": "{borderRadius.lg}", "$type": "dimension" },
+      "padding": { "$value": "{spacing.24}", "$type": "dimension" }
+    },
+    "progress-ring": {
+      "size": { "$value": "80px", "$type": "dimension" },
+      "stroke-width": { "$value": "8px", "$type": "dimension" }
+    }
+  }
+}
